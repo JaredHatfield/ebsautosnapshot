@@ -16,6 +16,12 @@ import com.unitvectory.ebsautosnapshot.model.EbsAutoSnapshotConfig;
 import com.unitvectory.ebsautosnapshot.model.EbsSnapshot;
 import com.unitvectory.ebsautosnapshot.model.EbsVolume;
 
+/**
+ * The EBS snapshot manager logic.
+ * 
+ * @author Jared Hatfield
+ *
+ */
 public class EbsSnapshotManager {
 
 	private AmazonEC2Client ec2Client;

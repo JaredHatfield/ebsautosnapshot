@@ -3,6 +3,12 @@ package com.unitvectory.ebsautosnapshot.model;
 import com.amazonaws.util.json.JSONException;
 import com.amazonaws.util.json.JSONObject;
 
+/**
+ * The EBS auto snapshot config.
+ * 
+ * @author Jared Hatfield
+ *
+ */
 public class EbsAutoSnapshotConfig {
 
 	private String awsPublicKey;

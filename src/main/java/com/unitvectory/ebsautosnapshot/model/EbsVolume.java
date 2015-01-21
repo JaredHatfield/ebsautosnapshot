@@ -10,6 +10,12 @@ import com.amazonaws.services.ec2.model.Snapshot;
 import com.amazonaws.services.ec2.model.Tag;
 import com.amazonaws.services.ec2.model.Volume;
 
+/**
+ * The EBS volume config information.
+ * 
+ * @author Jared Hatfield
+ *
+ */
 public class EbsVolume {
 
 	private String volumeId;

@@ -10,6 +10,12 @@ import org.apache.commons.lang.time.DateUtils;
 import com.amazonaws.services.ec2.model.Snapshot;
 import com.amazonaws.services.ec2.model.Tag;
 
+/**
+ * The EBS snapshot config information.
+ * 
+ * @author Jared Hatfield
+ *
+ */
 public class EbsSnapshot {
 
 	private String snapshotId;
